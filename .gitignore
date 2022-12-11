@@ -46,6 +46,7 @@ wandb
 lightning_logs/
 logs
 */training/logs
+*/training/*sweep.yaml
 flagged
 
 # Misc
@@ -55,7 +56,8 @@ flagged
 _labs
 .mypy_cache
 lab9/requirements.txt
-.coverage
+.coverage*
 /requirements.txt
 requirements/dev-lint.txt
 bootstrap.py
+**/fixme.py
